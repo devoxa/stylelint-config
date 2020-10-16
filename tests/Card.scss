@@ -1,13 +1,14 @@
 .Card {
-  font-family: 'Nunito Sans', sans-serif;
-  background: #ffffff;
-  border-radius: 6px;
-  color: #141414;
-  text-align: left;
-  overflow: hidden;
   position: relative;
   display: block;
+  overflow: hidden;
   margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #141414;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: left;
 
   .Card__Section {
     padding: 24px;
@@ -20,9 +21,9 @@
     }
 
     &:last-child {
-      border-bottom-left-radius: 6px;
-      border-bottom-right-radius: 6px;
       border-bottom-width: 1px;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
     }
   }
 }
