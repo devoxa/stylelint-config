@@ -1,0 +1,23 @@
+{
+  "name": "@devoxa/stylelint-config",
+  "description": "The shareable configuration for stylelint used in all Devoxa projects",
+  "version": "0.0.0",
+  "main": "stylelint.config.js",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/devoxa/stylelint-config"
+  },
+  "scripts": {
+    "lint": "stylelint --ignore-path='.gitignore' '{src,tests}/**/*.scss'"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "stylelint": "^13.7.2"
+  },
+  "devDependencies": {
+    "stylelint": "^13.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
