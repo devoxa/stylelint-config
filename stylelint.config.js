@@ -2,6 +2,9 @@ module.exports = {
   extends: [
     // Extend the common stylistic conventions found within a handful of CSS styleguides
     'stylelint-config-standard-scss',
+
+    // Sort CSS properties
+    'stylelint-config-hudochenkov/order',
   ],
   rules: {
     // Change this rule because we want to be able to write code like the following:
