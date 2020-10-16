@@ -1,12 +1,12 @@
-module.exports = {
-  extends: [
-    // Extend the common stylistic conventions found within a handful of CSS styleguides
-    'stylelint-config-standard-scss',
+const orderRules = require('./orderRules')
 
-    // Sort CSS properties
-    'stylelint-config-hudochenkov/order',
-  ],
+module.exports = {
+  extends: 'stylelint-config-standard-scss',
+  plugins: ['stylelint-order'],
   rules: {
+    // Sort the CSS properties for consistency
+    ...orderRules,
+
     // Change this rule because we want to be able to write code like the following:
     // .border-vertical-2 { border-top: 2px solid; border-bottom: 2px solid; }
     'declaration-block-single-line-max-declarations': 2,

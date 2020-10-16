@@ -27,6 +27,7 @@
   overflow-x: auto;
   overflow-y: auto;
   box-sizing: border-box;
+
   width: 100px;
   min-width: 100px;
   max-width: 100px;
@@ -52,12 +53,14 @@
   border-bottom: 1px;
   border-left: 1px;
   border-radius: 10px;
+
   background: black;
   background-color: black;
   background-image: url('../../media/examples/lizard.png');
   color: white;
   box-shadow: 10px 5px 5px red;
   outline: none;
+
   font: 1.2em 'Fira Sans', sans-serif;
   font-weight: 600;
   font-style: italic;
@@ -67,9 +70,11 @@
   letter-spacing: 0.05px;
   text-align: center;
   text-decoration: none;
+
   opacity: 0.3;
   cursor: pointer;
   pointer-events: none;
+
   transition: all 1s ease-in;
   animation: 3s ease-in 1s 2 reverse both paused slidein;
 }
