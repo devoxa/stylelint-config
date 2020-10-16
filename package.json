@@ -10,7 +10,10 @@
   "scripts": {
     "lint": "stylelint --ignore-path='.gitignore' '{src,tests}/**/*.scss'"
   },
-  "dependencies": {},
+  "dependencies": {
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.18.0"
+  },
   "peerDependencies": {
     "stylelint": "^13.7.2"
   },
