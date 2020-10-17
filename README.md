@@ -61,6 +61,10 @@ It is also recommended to add the following script to your `package.json` for ea
 "lint": "stylelint --ignore-path='.gitignore' '{src,tests}/**/*.scss'"
 ```
 
+Additionally, it is recommended to install the
+[VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+to get in-editor warnings & formatting support.
+
 ## Extending
 
 This configuration is not intended to be changed, but if you have a setup where modification is
