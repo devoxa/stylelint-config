@@ -1,29 +1,10 @@
 // Customized version of https://github.com/hudochenkov/stylelint-config-hudochenkov
 
 module.exports = {
-  'order/order': [
-    [
-      'dollar-variables',
-      'custom-properties',
-      'at-rules',
-      'declarations',
-      {
-        type: 'at-rule',
-        name: 'supports',
-      },
-      {
-        type: 'at-rule',
-        name: 'media',
-      },
-      'rules',
-    ],
-    {
-      severity: 'warning',
-    },
-  ],
-  // Needs to be turned off for order/properties-order to work!
+  // The following rule needs to be turned off for order/properties-order to work!
   // https://github.com/hudochenkov/stylelint-order/issues/70#issuecomment-427789416
   'declaration-empty-line-before': null,
+
   'order/properties-order': [
     [
       {
@@ -130,8 +111,8 @@ module.exports = {
           'border-left-style',
           'border-left-color',
           'border-radius',
-          'border-top-left-radius',
           'border-top-right-radius',
+          'border-top-left-radius',
           'border-bottom-right-radius',
           'border-bottom-left-radius',
           'border-image',
@@ -145,8 +126,8 @@ module.exports = {
           'border-bottom-image',
           'border-left-image',
           'border-corner-image',
-          'border-top-left-image',
           'border-top-right-image',
+          'border-top-left-image',
           'border-bottom-right-image',
           'border-bottom-left-image',
         ],
@@ -175,6 +156,7 @@ module.exports = {
           'outline-style',
           'outline-color',
           'outline-offset',
+          'tap-highlight-color',
           'table-layout',
           'caption-side',
           'empty-cells',
@@ -207,6 +189,7 @@ module.exports = {
           'text-align',
           'text-align-last',
           'text-decoration',
+          'text-decoration-skip-ink',
           'text-emphasis',
           'text-emphasis-position',
           'text-emphasis-style',
@@ -298,7 +281,7 @@ module.exports = {
     {
       unspecified: 'bottom',
       emptyLineBeforeUnspecified: 'always',
-      severity: 'warning',
+      severity: 'error',
     },
   ],
 }
