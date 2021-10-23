@@ -4,6 +4,7 @@ module.exports = {
   extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier'],
   plugins: ['stylelint-order'],
   customSyntax: 'postcss-scss',
+  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
   rules: {
     // Sort the CSS properties for consistency
     ...orderRules,
