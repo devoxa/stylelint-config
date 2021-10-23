@@ -3,6 +3,7 @@ const orderRules = require('./orderRules')
 module.exports = {
   extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier'],
   plugins: ['stylelint-order'],
+  customSyntax: 'postcss-scss',
   rules: {
     // Sort the CSS properties for consistency
     ...orderRules,
