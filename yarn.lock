@@ -43,10 +43,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-3.0.0.tgz#798622546b63847e82389e473fd67f2707d82247"
   integrity sha512-hBI9tfBtuPIi885ZsZ32IMEU/5nlZH/KOVYJCOh7gyMxaVLGmLedYqFN6Ui1LXkI8JlC8IsuC0rF0btcRZKd5g==
 
-"@devoxa/prettier-config@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@devoxa/prettier-config/-/prettier-config-2.0.1.tgz#902d9d73570033bf6c714946d49aa9a25af0ab33"
-  integrity sha512-OXjVzQcCiBMP7qZLre7OVZPg79CTjLeu3X1KUyHn4kHZ/YHGeYbS+GO6DSk8CkQE0Ncsj6j2Xg1unZd/LnB7VQ==
+"@devoxa/prettier-config@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@devoxa/prettier-config/-/prettier-config-2.0.2.tgz#317384be852582404313ad3eafaab1facf1e128a"
+  integrity sha512-1mXmpgPlcIcKER1LnKV/wDav7awcuZM4REDOUpIJs91k1xbGgRKdh+YAGXjHo3HMJW7rwyeyAAu1kovzKG2hBw==
   dependencies:
     prettier-plugin-organize-imports "3.2.2"
 
