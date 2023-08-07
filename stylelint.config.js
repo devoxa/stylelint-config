@@ -1,7 +1,7 @@
 const orderRules = require('./orderRules')
 
 module.exports = {
-  extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-standard-scss'],
   plugins: ['stylelint-order'],
   customSyntax: 'postcss-scss',
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
@@ -25,9 +25,6 @@ module.exports = {
 
     // Disable this rule because we don't enforce any naming conventions for class selectors
     'selector-class-pattern': null,
-
-    // Change this rule to not clash with SCSS if/else statements
-    'block-closing-brace-newline-after': ['always', { ignoreAtRules: ['if', 'else'] }],
 
     // Disable this rule, because we want to layer our specificity for the internals of components
     'no-descending-specificity': null,
