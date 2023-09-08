@@ -14,7 +14,7 @@
   },
   "prettier": "@devoxa/prettier-config",
   "dependencies": {
-    "postcss-scss": "4.0.7",
+    "postcss-scss": "4.0.8",
     "stylelint-config-standard-scss": "10.0.0",
     "stylelint-order": "6.0.3",
     "stylelint-scss": "5.1.0"
