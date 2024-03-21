@@ -25,7 +25,7 @@
   "devDependencies": {
     "@devoxa/prettier-config": "2.0.2",
     "@types/node": "20.9.5",
-    "postcss": "8.4.37",
+    "postcss": "8.4.38",
     "prettier": "3.2.5",
     "stylelint": "16.2.1",
     "typescript": "5.4.2"
