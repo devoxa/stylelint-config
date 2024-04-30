@@ -43,12 +43,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-3.0.3.tgz#208a3929ee614967a1fc8cd6cb758d9fcbf0caae"
   integrity sha512-KEPNw4+WW5AVEIyzC80rTbWEUatTW2lXpN8+8ILC8PiPeWPjwUzrPZDIOZ2wwqDmeqOYTdSGyL3+vE5GC3FB3Q==
 
-"@devoxa/prettier-config@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@devoxa/prettier-config/-/prettier-config-2.0.2.tgz#317384be852582404313ad3eafaab1facf1e128a"
-  integrity sha512-1mXmpgPlcIcKER1LnKV/wDav7awcuZM4REDOUpIJs91k1xbGgRKdh+YAGXjHo3HMJW7rwyeyAAu1kovzKG2hBw==
+"@devoxa/prettier-config@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@devoxa/prettier-config/-/prettier-config-2.0.3.tgz#44300be91cd9683789dff679ccd8822914f66f1f"
+  integrity sha512-g1ajCzaL70dW/RlWTtWRxslOrLh5Gir2orsdqzN1HjJFQhJ1AmoBn7lQgepiDfvAdjG+fMMfLuPm2TUzEvO4cg==
   dependencies:
-    prettier-plugin-organize-imports "3.2.2"
+    prettier-plugin-organize-imports "3.2.4"
 
 "@dual-bundle/import-meta-resolve@^4.0.0":
   version "4.0.0"
@@ -768,10 +768,10 @@ postcss@^8.4.32:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-prettier-plugin-organize-imports@3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-organize-imports/-/prettier-plugin-organize-imports-3.2.2.tgz#91993365e017daa5d0d28d8183179834224d8dd1"
-  integrity sha512-e97lE6odGSiHonHJMTYC0q0iLXQyw0u5z/PJpvP/3vRy6/Zi9kLBwFAbEGjDzIowpjQv8b+J04PDamoUSQbzGA==
+prettier-plugin-organize-imports@3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-organize-imports/-/prettier-plugin-organize-imports-3.2.4.tgz#77967f69d335e9c8e6e5d224074609309c62845e"
+  integrity sha512-6m8WBhIp0dfwu0SkgfOxJqh+HpdyfqSSLfKKRZSFbDuEQXDDndb8fTpRWkUrX/uBenkex3MgnVk0J3b3Y5byog==
 
 prettier@3.2.5:
   version "3.2.5"
