@@ -43,5 +43,8 @@ module.exports = {
 
     // Change this rule so we always use the legacy notation for color functions
     'color-function-notation': 'legacy',
+
+    // Change this rule so we always use the legacy notation for media queries
+    'media-feature-range-notation': 'prefix',
   },
 }
