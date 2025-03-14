@@ -27,7 +27,7 @@
     "@types/node": "20.9.5",
     "postcss": "8.5.3",
     "prettier": "3.5.3",
-    "stylelint": "16.15.0",
+    "stylelint": "16.16.0",
     "typescript": "5.8.2"
   },
   "publishConfig": {
