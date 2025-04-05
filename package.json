@@ -28,7 +28,7 @@
     "postcss": "8.5.3",
     "prettier": "3.5.3",
     "stylelint": "16.17.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
   "publishConfig": {
     "access": "public"
